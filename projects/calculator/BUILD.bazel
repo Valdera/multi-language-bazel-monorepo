@@ -1,7 +1,7 @@
 py_library(
     name = "calculator",
     srcs = ["calculator.py"],
-
+    visibility = ["//visibility:public"]
 )
 
 py_test(
