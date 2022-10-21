@@ -17,3 +17,15 @@ Build projects
 ```
 bazel build //...
 ```
+
+Trace dependencies
+
+```
+bazel query @com_github_gorilla_mux//...
+```
+
+Add package with yarn
+
+```
+bazel run @yarn//:yarn -- add <package>
+```
